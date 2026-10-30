@@ -1,0 +1,24 @@
+{
+  "id": "internetarchive",
+  "name": "Internet Archive",
+  "version": "1.0.0",
+  "apiVersion": 4,
+  "entry": "plugin.js",
+  "description": "Películas clásicas, caricaturas y cine de dominio público de archive.org",
+  "author": "leopolidax-lang",
+  "hosts": [
+    "archive.org",
+    "*.archive.org"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "home",
+    "search",
+    "resolve"
+  ],
+  "color": "#3B82F6",
+  "categories": [
+    "movies"
+  ],
+  "fetchHosts": "any"
+}
